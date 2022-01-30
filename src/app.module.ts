@@ -5,7 +5,7 @@ import { AppController } from './controllers/app.controller';
 import { AppService } from './services/app.service';
 
 @Module({
-  imports: [TypeOrmModule.forRoot(configProvider.getTypeOrmConfig())],
+  imports: [],
   controllers: [AppController],
   providers: [AppService],
 })

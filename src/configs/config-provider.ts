@@ -38,6 +38,7 @@ class ConfigProviderService {
         migrationsDir: 'src/migrations',
       },
       ssl: this.isProduction(),
+      migrationsRun: true,
     };
   }
 }
